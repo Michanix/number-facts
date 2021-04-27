@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable require-jsdoc */
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
@@ -12,18 +13,22 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+  bar: {
+    color: 'blue',
+  },
 }));
 
-export default function NavBar() {
+export default function NavBar(props) {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" color="default">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Number Facts
+            Number Facts!
           </Typography>
+          {props.children}
         </Toolbar>
       </AppBar>
     </div>
