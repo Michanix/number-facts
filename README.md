@@ -15,4 +15,4 @@ npm start
 ```
 
 This app will start on port **3000**, so make sure nothing is running there.
-And finally navigate to (http://localhost:3000/) and get some facts!
+And finally navigate to [localhost](http://localhost:3000/) and get some facts!
