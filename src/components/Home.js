@@ -1,15 +1,13 @@
 /* eslint-disable require-jsdoc */
 import React from 'react';
+import NavBar from './NavBar';
+import TabPanels from './TabPanels';
 import {
-  // Paper,
   ThemeProvider,
   createMuiTheme,
   Switch,
   CssBaseline,
 } from '@material-ui/core/';
-
-import NavBar from './NavBar';
-import TabPanels from './TabPanels';
 
 export default class Home extends React.Component {
   constructor(props) {

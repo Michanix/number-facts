@@ -2,7 +2,6 @@
 /* eslint-disable require-jsdoc */
 import React from 'react';
 import {Trans, withTranslation} from 'react-i18next';
-
 import {
   Button,
   Input,

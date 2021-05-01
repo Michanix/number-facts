@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable require-jsdoc */
 import React from 'react';
+import {withStyles} from '@material-ui/core/styles';
+import {Trans, withTranslation} from 'react-i18next';
 import {
   Typography,
   AppBar,
@@ -8,8 +10,6 @@ import {
   Select,
   MenuItem,
 } from '@material-ui/core/';
-import {withStyles} from '@material-ui/core/styles';
-import {Trans, withTranslation} from 'react-i18next';
 
 const useStyles = {
   root: {

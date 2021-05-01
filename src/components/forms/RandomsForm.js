@@ -2,12 +2,12 @@
 /* eslint-disable require-jsdoc */
 import React from 'react';
 import {Trans, withTranslation} from 'react-i18next';
+import {makeRequest} from '../Utils';
 import {
   Button,
   MenuItem,
   Select,
 } from '@material-ui/core';
-import {makeRequest} from '../Utils';
 
 export default withTranslation()(class RandomsForm extends React.Component {
   constructor(props) {

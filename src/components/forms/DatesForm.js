@@ -1,14 +1,12 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable require-jsdoc */
-import {
-  Button,
-  Input,
-  // Typography,
-} from '@material-ui/core';
 import React from 'react';
 import {makeRequest, between} from '../Utils';
 import {Trans, withTranslation} from 'react-i18next';
-
+import {
+  Button,
+  Input,
+} from '@material-ui/core';
 export default withTranslation()(class DatesForm extends React.Component {
   constructor(props) {
     super(props);
