@@ -1,7 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable require-jsdoc */
-
-
 export async function makeRequest(instance, url) {
   let data;
 

@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-/* eslint-disable require-jsdoc */
 import React from 'react';
 import {makeRequest, between} from '../Utils';
 import {Trans, withTranslation} from 'react-i18next';

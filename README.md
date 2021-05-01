@@ -1,7 +1,7 @@
 ## Number facts!
 This small application was created with React as a part of the Web programming course.
 
-This simple app uses (http://numbersapi.com/) API to fetch JSON data with different facts about numbers 
+This simple app uses [Number Facts](http://numbersapi.com/) API to fetch JSON data with different facts about numbers 
 and present to user.
 
 ### Installation and Usage
