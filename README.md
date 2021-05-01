@@ -8,7 +8,7 @@ and present to user.
 If you would like to try it then follow next steps:
 
 ```
-git clone
+git clone git@github.com:Michanix/number-facts.git
 cd /number-facts
 npm install 
 npm start
