@@ -1,0 +1,13 @@
+{
+    "title": "Number Facts!",
+    "math": "Math",
+    "random": "Random",
+    "trivia": "Trivia",
+    "dates": "Dates",
+    "placeholder": "Number",
+    "button": "Give me facts!",
+    "year": "Year",
+    "day": "Day",
+    "month": "Month",
+    "errMsg": "Please enter a number!"
+}

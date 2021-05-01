@@ -1,0 +1,13 @@
+{
+    "title": "Numbri Fakti!",
+    "math": "Matemaatika",
+    "random": "Juhuslik",
+    "trivia": "Trivia",
+    "dates": "Kuupäev",
+    "placeholder": "Number",
+    "button": "Anna mulle fatki!",
+    "year": "Aasta",
+    "day": "Päev",
+    "month": "Kuu",
+    "errMsg": "Ssesta number palun!"
+}

@@ -15,13 +15,17 @@ export default class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      darkMode: false,
+      darkMode: localStorage.getItem('darkMode') ?
+      JSON.parse(localStorage.getItem('darkMode')) : false,
     };
+
     this.handleDarkMode = this.handleDarkMode.bind(this);
   }
 
   handleDarkMode(event) {
-    this.setState({darkMode: !this.state.darkMode});
+    const state = !this.state.darkMode;
+    this.setState({darkMode: state});
+    localStorage.setItem('darkMode', state);
   }
 
   render() {
